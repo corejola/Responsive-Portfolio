@@ -149,17 +149,103 @@ footer {
 
 /* 980px */
 @media (max-width: 980px) {
-    .header {
-        
+    body {
+        width: 100%;
     }
+    
+      .container, .portfolio, .contact    {
+          width: 85%;
+      }
+      .header {
+          position: relative;
+      }
+    
+      .name {
+          position: staatic;
+  
+          /* left: 10%; */
+
+        }
+      .paragraph {
+        width: 75%;
+        margin: 0; 
+      }
+
+      footer {
+          position: relative;
+      }
 }
 
-/* 758px */
-@media (max-width: 758px) {
-    
-}
+/* 768px */
+@media (max-width: 768px) {
+    body {
+        width: 100%;
+    }
+
+    .container, .portfolio, .contact    {
+        width: 90%;
+    }
+    .header {
+        position: relative;
+    }
+
+    .name {
+        position: absolute;
+        left: 0;
+        }
+    .paragraph {
+        width: 80%; 
+    }
+
+    footer {
+        position: relative;
+    }
+
 
 /* 640px */
 @media (max-width: 640px) {
-    
+    body {
+        width: 100%;
+    }
+
+    .container, .portfolio, .contact    {
+        width: 90%;
+        position: relative;
+    }
+
+    .header {
+        border: none;
+        width: 100%;
+    }
+
+    .name {
+        margin: 0 ;
+        width:100%;
+        clear: both;
+        text-align: center;
+        }
+
+    nav {
+        width: 100%;
+        position: relative;
+        top: 47px;
+        left: 0;
+        padding: 15px;
+        float: none;
+        margin: 0 auto;
+        background-color: white;
+       
+    }
+
+    li {
+        padding: 10px;
+    }
+
+    .paragraph {
+        width: 80%; 
+    }
+
+    footer {
+        position: relative;
+    }
 }
